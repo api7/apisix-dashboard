@@ -11,6 +11,7 @@ require (
 	github.com/coreos/etcd v3.3.25+incompatible // indirect
 	github.com/coreos/go-systemd v0.0.0-20191104093116-d3cd4ed1dbcf // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/dustin/go-humanize v1.0.0 // indirect
 	github.com/evanphx/json-patch/v5 v5.1.0
 	github.com/getkin/kin-openapi v0.33.0
@@ -21,14 +22,17 @@ require (
 	github.com/google/uuid v1.2.0 // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2 // indirect
+	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.0 // indirect
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/juliangruber/go-intersect v1.1.0
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.8.0 // indirect
+	github.com/prometheus/client_golang v1.11.1 // indirect
 	github.com/satori/go.uuid v1.2.0
 	github.com/shiningrush/droplet v0.2.6-0.20210127040147-53817015cd1b
 	github.com/shiningrush/droplet/wrapper/gin v0.2.1
 	github.com/sirupsen/logrus v1.7.0 // indirect
+	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/sony/sonyflake v1.0.0
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/viper v1.8.1
@@ -36,12 +40,13 @@ require (
 	github.com/tidwall/gjson v1.6.7
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20200427203606-3cfed13b9966 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0
+	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	github.com/yuin/gopher-lua v0.0.0-20200816102855-ee81675732da
+	go.etcd.io/bbolt v1.3.3 // indirect
 	go.etcd.io/etcd v3.3.25+incompatible
 	go.uber.org/zap v1.17.0
 	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
-	golang.org/x/sys v0.0.0-20210514084401-e8d321eab015 // indirect
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 	sigs.k8s.io/yaml v1.2.0 // indirect
 )
